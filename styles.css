@@ -187,3 +187,9 @@ textarea{min-height:150px;resize:vertical}
   .sponsor-form .form-row{grid-template-columns:1fr;gap:20px}
   .sponsor-submit{width:100%}
 }
+
+.footer-social a{transition:color .15s}
+.footer-social a:hover{color:var(--gold-light)}
+@media(max-width:1000px){
+  .footer{grid-template-columns:1fr 1fr}
+}
