@@ -17,26 +17,63 @@
 </header>
 
 <main>
-<section class="page-hero"><div class="container"><div class="eyebrow">Contact</div><h1>Let's connect.</h1><p>Have a question about Lead Empowered TV, the Featured Guest Spotlight, sponsorship, or something else? Send us a message.</p></div></section>
-<section class="section"><div class="container">
-<div class="form-wrap">
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-<input type="hidden" name="form-name" value="contact">
-<p style="display:none"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
-<div class="form-grid">
-<div class="form-group"><label for="name">Name</label><input id="name" name="name" required></div>
-<div class="form-group"><label for="email">Email</label><input id="email" type="email" name="email" required></div>
-<div class="form-group full"><label for="subject">Subject</label><input id="subject" name="subject" required></div>
-<div class="form-group full"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
-</div>
-<button class="btn btn-primary" type="submit">Send Inquiry →</button>
-</form>
-<p class="small" style="margin-top:18px">This form is configured for Netlify Forms. Netlify will detect it after deployment.</p>
-</div>
-</div></section>
-</main>
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Contact Lead Empowered TV</div>
+    <h1>Let's Start a Conversation.</h1>
+    <p>Have a question about Lead Empowered TV, the Featured Guest Spotlight, or something else? We'd love to hear from you.</p>
+  </div>
+</section>
 
-<footer class="site-footer">
+<section class="section">
+  <div class="container split">
+    <div>
+      <div class="eyebrow">General Inquiries</div>
+      <div class="section-heading">
+        <h2>How Can We Help?</h2>
+        <p>Use the form to send us a message about the show, partnerships, media inquiries, guest opportunities, or anything else you'd like to discuss.</p>
+      </div>
+      <div class="card" style="border-top:5px solid var(--gold);padding:28px">
+        <h3>Interested in Becoming a Featured Guest?</h3>
+        <p>If you're a business owner, entrepreneur, author, thought leader, influencer, or changemaker interested in learning more about the Featured Guest Spotlight, please use the dedicated application.</p>
+        <a class="btn btn-primary" href="featured-guest.html">Explore the Featured Guest Spotlight →</a>
+      </div>
+    </div>
+    <div class="form-wrap">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+        <div class="form-row">
+          <div><label for="name">Name *</label><input id="name" name="name" type="text" required></div>
+          <div><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+        </div>
+        <div><label for="company">Company / Organization</label><input id="company" name="company" type="text"></div>
+        <div><label for="reason">What can we help you with?</label>
+          <select id="reason" name="reason">
+            <option value="">Please select...</option>
+            <option>General Inquiry</option>
+            <option>Featured Guest Question</option>
+            <option>Media / Press</option>
+            <option>Partnership Opportunity</option>
+            <option>Speaking / Collaboration</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div><label for="message">Message *</label><textarea id="message" name="message" rows="7" required></textarea></div>
+        <button class="btn btn-primary" type="submit">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container cta">
+    <h2>Looking for More Than a Guest Appearance?</h2>
+    <p>Speak Empowered helps business owners, thought leaders, authors, and influencers get booked on more shows, amplify their voice, and elevate their impact.</p>
+    <a class="btn btn-primary" href="https://speakempowered.com" target="_blank" rel="noopener">Explore Speak Empowered →</a>
+  </div>
+</section>
+</main><footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
       <img src="assets/letv-logo.png" alt="Lead Empowered TV">
