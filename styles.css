@@ -19,7 +19,7 @@ body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSy
 a{color:inherit}
 img{max-width:100%;display:block}
 .container{width:min(var(--max),calc(100% - 40px));margin:auto}
-.site-header{position:sticky;top:0;z-index:50;background:rgba(8,20,33,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.site-header{position:sticky;top:0;z-index:50;background:#000;backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
 .nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand img{width:245px;height:auto}
 .nav-links{display:flex;align-items:center;gap:24px;color:#fff;font-size:.94rem;font-weight:700}
