@@ -167,3 +167,23 @@ textarea{min-height:150px;resize:vertical}
   .media-row{grid-template-columns:105px 52px 1fr;gap:8px;font-size:.88rem}
   .streaming-takeaway{padding:24px 20px}
 }
+
+/* Sponsorship form polish */
+.sponsor-form{max-width:920px;margin:38px auto 0;background:#fff;border:1px solid #dfe5e9;border-radius:10px;padding:42px 46px;box-shadow:0 12px 35px rgba(0,0,0,.06)}
+.sponsor-form form{display:flex;flex-direction:column;gap:20px}
+.sponsor-form .form-row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.sponsor-form .form-field{display:flex;flex-direction:column}
+.sponsor-form label{display:block;font-weight:700;margin-bottom:8px;color:#17212b}
+.sponsor-form input,.sponsor-form textarea{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid #cbd4db;border-radius:5px;background:#fff;color:#17212b;font:inherit;transition:border-color .15s,box-shadow .15s}
+.sponsor-form input{height:48px}
+.sponsor-form textarea{resize:vertical;min-height:120px}
+.sponsor-form input::placeholder,.sponsor-form textarea::placeholder{color:#9aa5ad}
+.sponsor-form input:focus,.sponsor-form textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(197,153,58,.14)}
+.form-section-label{font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--navy);padding-bottom:9px;border-bottom:1px solid #e1e6ea;margin-top:2px}
+.form-section-label-goals{margin-top:12px}
+.sponsor-submit{align-self:flex-start;margin-top:4px}
+@media(max-width:700px){
+  .sponsor-form{padding:28px 22px}
+  .sponsor-form .form-row{grid-template-columns:1fr;gap:20px}
+  .sponsor-submit{width:100%}
+}
