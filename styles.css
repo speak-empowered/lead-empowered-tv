@@ -21,7 +21,7 @@ img{max-width:100%;display:block}
 .container{width:min(var(--max),calc(100% - 40px));margin:auto}
 .site-header{position:sticky;top:0;z-index:50;background:#000;backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
 .nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.brand img{width:240px;height:auto}
+.brand img{width:480px;height:auto}
 .nav-links{display:flex;align-items:center;gap:24px;color:#fff;font-size:.94rem;font-weight:700}
 .nav-links a{text-decoration:none;opacity:.9}
 .nav-links a:hover{color:var(--gold-light)}
