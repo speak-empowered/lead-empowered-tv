@@ -237,10 +237,3 @@ textarea{min-height:150px;resize:vertical}
 .endorsement-attribution strong{font-size:1.05rem;color:#17212b}
 .endorsement-attribution span{font-size:.92rem}
 @media(max-width:600px){.endorsement{padding:36px 22px}.endorsement blockquote{font-size:1.3rem}}
-
-.hero-forbes{margin-top:18px;width:100%;display:flex;justify-content:center}
-.hero-forbes img{display:block;width:min(100%,430px);height:auto;border-radius:2px}
-@media(max-width:800px){
-  .hero-forbes{margin-top:16px}
-  .hero-forbes img{width:min(100%,390px)}
-}
