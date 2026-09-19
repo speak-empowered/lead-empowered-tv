@@ -245,3 +245,8 @@ textarea{min-height:150px;resize:vertical}
 .hero-platforms p{margin:10px 0 0;max-width:none;font-size:.82rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:#b9cad8}
 @media(max-width:900px){.hero-platforms{width:min(90%,620px);margin-top:22px}.hero-visual{order:-1}}
 @media(max-width:560px){.hero-platforms{width:100%;margin-top:18px}.hero-platforms p{font-size:.72rem;letter-spacing:.04em}}
+
+/* Watch page platform banner */
+.watch-platforms{max-width:1000px;margin:0 auto 36px;padding:0 12px}
+.watch-platforms img{width:100%;height:auto;display:block;object-fit:contain}
+@media(max-width:600px){.watch-platforms{margin-bottom:28px;padding:0}}
