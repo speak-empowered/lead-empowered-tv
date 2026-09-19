@@ -237,3 +237,11 @@ textarea{min-height:150px;resize:vertical}
 .endorsement-attribution strong{font-size:1.05rem;color:#17212b}
 .endorsement-attribution span{font-size:.92rem}
 @media(max-width:600px){.endorsement{padding:36px 22px}.endorsement blockquote{font-size:1.3rem}}
+
+/* Homepage hero platform reach */
+.hero-visual{min-width:0}
+.hero-platforms{margin:24px auto 0;text-align:center;width:90%}
+.hero-platforms img{width:100%;height:auto;object-fit:contain;margin:0 auto;box-shadow:none;border-radius:0;aspect-ratio:auto}
+.hero-platforms p{margin:10px 0 0;max-width:none;font-size:.82rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:#b9cad8}
+@media(max-width:900px){.hero-platforms{width:min(90%,620px);margin-top:22px}.hero-visual{order:-1}}
+@media(max-width:560px){.hero-platforms{width:100%;margin-top:18px}.hero-platforms p{font-size:.72rem;letter-spacing:.04em}}
