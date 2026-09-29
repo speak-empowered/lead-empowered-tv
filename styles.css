@@ -250,3 +250,8 @@ textarea{min-height:150px;resize:vertical}
 .watch-platforms{max-width:1000px;margin:52px auto 18px;padding:0 12px}
 .watch-platforms img{width:100%;height:auto;display:block;object-fit:contain}
 @media(max-width:600px){.watch-platforms{margin:40px auto 12px;padding:0}}
+
+/* Wider Lauren Fine testimonial */
+.lauren-testimonial .endorsement{max-width:1160px;padding-left:42px;padding-right:42px}
+.lauren-testimonial .endorsement blockquote{max-width:1080px;font-size:clamp(1.3rem,1.8vw,1.7rem);line-height:1.45}
+@media(max-width:600px){.lauren-testimonial .endorsement{padding-left:22px;padding-right:22px}.lauren-testimonial .endorsement blockquote{font-size:1.25rem}}
