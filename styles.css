@@ -255,3 +255,10 @@ textarea{min-height:150px;resize:vertical}
 .lauren-testimonial .endorsement{max-width:1160px;padding-left:42px;padding-right:42px}
 .lauren-testimonial .endorsement blockquote{max-width:1080px;font-size:clamp(1.3rem,1.8vw,1.7rem);line-height:1.45}
 @media(max-width:600px){.lauren-testimonial .endorsement{padding-left:22px;padding-right:22px}.lauren-testimonial .endorsement blockquote{font-size:1.25rem}}
+
+/* Lauren Fine testimonial portrait */
+.lauren-testimonial .endorsement{display:grid;grid-template-columns:160px minmax(0,1fr);gap:42px;align-items:center;text-align:left}
+.lauren-testimonial .lauren-photo{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center 30%;display:block;box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.lauren-testimonial .lauren-quote blockquote{margin-left:0;margin-right:0}
+.lauren-testimonial .endorsement-attribution{align-items:flex-start}
+@media(max-width:760px){.lauren-testimonial .endorsement{display:flex;flex-direction:column;gap:24px;text-align:center}.lauren-testimonial .lauren-photo{width:140px;height:140px}.lauren-testimonial .lauren-quote blockquote{margin-left:auto;margin-right:auto}.lauren-testimonial .endorsement-attribution{align-items:center}}
