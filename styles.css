@@ -262,3 +262,8 @@ textarea{min-height:150px;resize:vertical}
 .lauren-testimonial .lauren-quote blockquote{margin-left:0;margin-right:0}
 .lauren-testimonial .endorsement-attribution{align-items:flex-start}
 @media(max-width:760px){.lauren-testimonial .endorsement{display:flex;flex-direction:column;gap:24px;text-align:center}.lauren-testimonial .lauren-photo{width:140px;height:140px}.lauren-testimonial .lauren-quote blockquote{margin-left:auto;margin-right:auto}.lauren-testimonial .endorsement-attribution{align-items:center}}
+
+/* Homepage hero photographic background */
+.hero{background-image:linear-gradient(90deg,rgba(4,16,30,.94) 0%,rgba(5,20,36,.88) 43%,rgba(5,18,32,.73) 100%),url("assets/hero-podcast-mic.png.png");background-size:cover;background-position:center center;background-repeat:no-repeat}
+@media(max-width:900px){.hero{background-image:linear-gradient(90deg,rgba(4,16,30,.94),rgba(5,20,36,.82)),url("assets/hero-podcast-mic.png.png");background-position:62% center}}
+@media(max-width:560px){.hero{background-image:linear-gradient(rgba(4,16,30,.93),rgba(4,16,30,.89)),url("assets/hero-podcast-mic.png.png");background-position:66% center}}
