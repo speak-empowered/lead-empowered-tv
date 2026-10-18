@@ -27,7 +27,7 @@ img{max-width:100%;display:block}
 .nav-links a:hover{color:var(--gold-light)}
 .nav-cta{background:var(--gold);color:#111!important;padding:11px 17px;border-radius:999px}
 .menu-btn{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;padding:8px 10px;border-radius:8px}
-.hero{background:radial-gradient(circle at 75% 20%,rgba(40,120,181,.38),transparent 36%),linear-gradient(120deg,#071521 0%,#0b2a45 55%,#081521 100%);color:#fff;padding:90px 0 80px;overflow:hidden}
+.hero{background:radial-gradient(circle at 75% 20%,rgba(40,120,181,.38),transparent 36%),linear-gradient(120deg,#071521 0%,#0b2a45 55%,#081521 100%);color:#fff;padding:48px 0 80px;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px}
 .eyebrow{color:var(--gold-light);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
 .hero h1{font-size:clamp(2.6rem,5vw,5rem);line-height:.98;margin:16px 0 22px;letter-spacing:-.045em}
