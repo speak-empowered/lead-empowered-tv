@@ -276,3 +276,6 @@ textarea{min-height:150px;resize:vertical}
 @keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
 @media(max-width:600px){.home-ticker{padding:16px 0}.home-ticker-set{gap:22px;padding-right:22px;font-size:.86rem;letter-spacing:.06em}}
 @media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
+
+/* Gold four-leaf clover separators */
+.home-ticker .ticker-clover{width:21px;height:21px;flex:0 0 21px;color:#f0cf55;display:block}
