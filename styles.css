@@ -267,3 +267,12 @@ textarea{min-height:150px;resize:vertical}
 .hero{background-image:linear-gradient(90deg,rgba(4,16,30,.80) 0%,rgba(5,20,36,.71) 43%,rgba(5,18,32,.60) 100%),url("assets/hero-podcast-mic.png.png");background-size:cover;background-position:center center;background-repeat:no-repeat}
 @media(max-width:900px){.hero{background-image:linear-gradient(90deg,rgba(4,16,30,.82),rgba(5,20,36,.69)),url("assets/hero-podcast-mic.png.png");background-position:62% center}}
 @media(max-width:560px){.hero{background-image:linear-gradient(rgba(4,16,30,.85),rgba(4,16,30,.78)),url("assets/hero-podcast-mic.png.png");background-position:66% center}}
+
+/* Homepage scrolling message ticker */
+.home-ticker{background:#2b6b99;color:#fff;overflow:hidden;padding:20px 0;white-space:nowrap}
+.home-ticker-track{display:flex;width:max-content;animation:home-ticker-scroll 38s linear infinite}
+.home-ticker-set{display:flex;flex:none;align-items:center;gap:32px;padding-right:32px;font-size:1.02rem;font-weight:800;letter-spacing:.09em}
+.home-ticker-star{color:#f0cf55;font-size:1.2rem}
+@keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
+@media(max-width:600px){.home-ticker{padding:16px 0}.home-ticker-set{gap:22px;padding-right:22px;font-size:.86rem;letter-spacing:.06em}}
+@media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
