@@ -300,3 +300,7 @@ textarea{min-height:150px;resize:vertical}
 /* Watch page badge: 20% larger than homepage badge */
 .watch-intro .reach-badge{width:96%}
 @media(max-width:760px){.watch-intro .reach-badge{max-width:336px}}
+
+/* Align Watch CTA with intro copy */
+.watch-intro-cta{margin-top:24px;text-align:left}
+@media(max-width:760px){.watch-intro-cta{text-align:center}}
