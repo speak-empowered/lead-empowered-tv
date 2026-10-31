@@ -290,3 +290,9 @@ textarea{min-height:150px;resize:vertical}
 .reach-badge img{width:100%;height:auto;display:block;object-fit:contain}
 .reach-badge .small{font-size:.72rem;line-height:1.5;margin:10px auto 0;max-width:340px}
 @media(max-width:600px){.reach-badge{max-width:280px;margin-top:26px}}
+
+/* Reach intro badge and heading layout */
+.reach-intro{display:grid;grid-template-columns:minmax(230px,340px) minmax(0,1fr);align-items:center;gap:56px;max-width:1040px;margin:0 auto 44px}
+.reach-intro .reach-badge{margin:0 auto;width:100%}
+.reach-intro .section-heading{margin:0;max-width:650px}
+@media(max-width:760px){.reach-intro{grid-template-columns:1fr;gap:24px;text-align:center}.reach-intro .reach-badge{max-width:280px}.reach-intro .section-heading{margin:0 auto}}
