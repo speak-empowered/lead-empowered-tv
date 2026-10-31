@@ -296,3 +296,7 @@ textarea{min-height:150px;resize:vertical}
 .reach-intro .reach-badge{margin:0 auto;width:80%}
 .reach-intro .section-heading{margin:0;max-width:650px}
 @media(max-width:760px){.reach-intro{grid-template-columns:1fr;gap:24px;text-align:center}.reach-intro .reach-badge{max-width:280px}.reach-intro .section-heading{margin:0 auto}}
+
+/* Watch page badge: 20% larger than homepage badge */
+.watch-intro .reach-badge{width:96%}
+@media(max-width:760px){.watch-intro .reach-badge{max-width:336px}}
