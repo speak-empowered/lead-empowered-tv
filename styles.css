@@ -284,3 +284,9 @@ textarea{min-height:150px;resize:vertical}
 .home-ticker .ticker-item{display:inline-flex;align-items:center;gap:12px;flex:none}
 .home-ticker .ticker-icon{width:23px;height:23px;flex:none;color:#f0cf55}
 @media(max-width:600px){.home-ticker .ticker-icon{width:20px;height:20px}.home-ticker .ticker-item{gap:9px}}
+
+/* Audience reach recognition badge */
+.reach-badge{max-width:360px;margin:34px auto 0;text-align:center}
+.reach-badge img{width:100%;height:auto;display:block;object-fit:contain}
+.reach-badge .small{font-size:.72rem;line-height:1.5;margin:10px auto 0;max-width:340px}
+@media(max-width:600px){.reach-badge{max-width:280px;margin-top:26px}}
