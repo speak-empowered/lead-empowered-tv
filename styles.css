@@ -309,3 +309,20 @@ textarea{min-height:150px;resize:vertical}
 .reach-platform-logos{max-width:760px;margin:26px auto 0;text-align:center}
 .reach-platform-logos img{display:block;width:100%;height:auto;object-fit:contain}
 @media(max-width:600px){.reach-platform-logos{margin-top:20px}}
+
+/* Premium sponsorship offer feature */
+.sponsor-offer-section{padding:42px 0 18px;background:#f7f8fa}
+.sponsor-offer-card{position:relative;overflow:hidden;max-width:1050px;margin:0 auto;padding:56px 38px 60px;text-align:center;color:#fff;background:linear-gradient(135deg,#101c2c 0%,#162a43 60%,#101c2c 100%);border:1px solid #c9a34a;border-radius:16px;box-shadow:0 16px 36px rgba(12,25,44,.14)}
+.sponsor-offer-card:before,.sponsor-offer-card:after{content:"";position:absolute;left:38px;right:38px;height:1px;background:linear-gradient(90deg,transparent,#c9a34a,transparent)}
+.sponsor-offer-card:before{top:20px}.sponsor-offer-card:after{bottom:20px}
+.sponsor-offer-eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.2em;color:#d9b968;margin-bottom:20px}
+.sponsor-offer-card h2{font-size:clamp(1.9rem,4vw,3.15rem);line-height:1.15;max-width:800px;margin:0 auto 30px;color:#fff}
+.sponsor-offer-card h2 span{color:#d9b968}
+.sponsor-offer-price{margin-bottom:22px}
+.sponsor-offer-start{display:block;color:#d9b968;font-size:.78rem;font-weight:700;letter-spacing:.18em;margin-bottom:5px}
+.sponsor-offer-price strong{font-size:clamp(3.3rem,7vw,5.4rem);line-height:1;font-weight:800;color:#fff}
+.sponsor-offer-unit{display:inline-block;color:#d9b968;font-size:1.05rem;font-weight:600;margin-left:12px}
+.sponsor-offer-card p{max-width:700px;margin:0 auto 28px;color:#e0e4e9;font-size:1.06rem;line-height:1.65}
+.sponsor-offer-button{display:inline-flex;justify-content:center}
+#sponsorship-inquiry{scroll-margin-top:95px}
+@media(max-width:600px){.sponsor-offer-section{padding:24px 0 8px}.sponsor-offer-card{padding:45px 22px 46px;border-radius:12px}.sponsor-offer-card:before,.sponsor-offer-card:after{left:20px;right:20px}.sponsor-offer-unit{display:block;margin:8px 0 0}.sponsor-offer-card p{font-size:.96rem}}
