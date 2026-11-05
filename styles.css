@@ -333,3 +333,15 @@ textarea{min-height:150px;resize:vertical}
 .sponsor-offer-card h1{font-size:clamp(1.9rem,4vw,3.15rem);line-height:1.15;max-width:800px;margin:0 auto 30px;color:#fff}
 .sponsor-offer-card h1 span{color:#d9b968}
 @media(max-width:600px){.sponsor-offer-hero{padding:24px 0 34px}}
+
+/* Compact sponsorship hero: comparable height to other page heroes */
+.sponsor-offer-hero{padding:28px 0 32px}
+.sponsor-offer-hero .sponsor-offer-card{max-width:1120px;padding:30px 42px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.85fr);align-items:center;gap:38px;text-align:left}
+.sponsor-offer-hero .sponsor-offer-eyebrow{margin-bottom:10px}
+.sponsor-offer-hero .sponsor-offer-card h1{font-size:clamp(1.85rem,3vw,2.8rem);margin:0 0 14px;text-align:left}
+.sponsor-offer-hero .sponsor-offer-card p{margin:0;max-width:580px;font-size:.96rem;line-height:1.5}
+.sponsor-hero-action{text-align:center}
+.sponsor-hero-action .sponsor-offer-price{margin-bottom:18px}
+.sponsor-hero-action .sponsor-offer-price strong{font-size:clamp(3rem,5vw,4.3rem)}
+.sponsor-hero-action .sponsor-offer-button{font-size:.9rem}
+@media(max-width:760px){.sponsor-offer-hero{padding:22px 0 28px}.sponsor-offer-hero .sponsor-offer-card{grid-template-columns:1fr;gap:20px;padding:34px 24px;text-align:center}.sponsor-offer-hero .sponsor-offer-card h1{text-align:center}.sponsor-offer-hero .sponsor-offer-card p{margin:0 auto}.sponsor-hero-action .sponsor-offer-price{margin-bottom:14px}}
