@@ -416,3 +416,14 @@ textarea{min-height:150px;resize:vertical}
 .footer-simple-faith{display:flex;justify-content:center;margin-top:20px}
 .footer-simple-faith .footer-faith{display:inline-flex;align-items:center;gap:7px;color:#d8dee3;font-size:.85rem;white-space:nowrap}
 .footer-simple-faith .footer-faith svg{display:block;flex:none;color:#d8dee3}
+
+/* Empowered Hearts Foundation mission spotlight */
+.foundation-spotlight{background:linear-gradient(115deg,#08111d 0%,#10365a 100%);border-top:1px solid rgba(217,173,84,.38);border-bottom:1px solid rgba(217,173,84,.38);padding:50px 0;color:#f5f7fa}
+.foundation-spotlight-inner{display:grid;grid-template-columns:minmax(210px,.75fr) minmax(0,1.4fr);align-items:center;gap:52px}
+.foundation-spotlight-logo{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.97);border:1px solid rgba(217,173,84,.55);border-radius:12px;padding:25px;min-height:225px;box-shadow:0 15px 34px rgba(0,0,0,.2)}
+.foundation-spotlight-logo img{display:block;width:100%;max-width:330px;max-height:220px;height:auto;object-fit:contain}
+.foundation-spotlight-copy .eyebrow{color:#d9ad54;letter-spacing:.13em}
+.foundation-spotlight-copy h2{color:#fff;font-size:clamp(28px,3.1vw,42px);margin:12px 0 16px}
+.foundation-spotlight-copy h2 span{color:#d9ad54}
+.foundation-spotlight-copy>p:not(.eyebrow){color:#e0e8f0;line-height:1.7;max-width:680px;margin-bottom:23px}
+@media(max-width:760px){.foundation-spotlight{padding:38px 0}.foundation-spotlight-inner{grid-template-columns:1fr;gap:26px}.foundation-spotlight-logo{min-height:175px;max-width:380px;width:100%;margin:0 auto}.foundation-spotlight-logo img{max-height:175px}}
