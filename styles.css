@@ -427,3 +427,9 @@ textarea{min-height:150px;resize:vertical}
 .foundation-spotlight-copy h2 span{color:#d9ad54}
 .foundation-spotlight-copy>p:not(.eyebrow){color:#e0e8f0;line-height:1.7;max-width:680px;margin-bottom:23px}
 @media(max-width:760px){.foundation-spotlight{padding:38px 0}.foundation-spotlight-inner{grid-template-columns:1fr;gap:26px}.foundation-spotlight-logo{min-height:175px;max-width:380px;width:100%;margin:0 auto}.foundation-spotlight-logo img{max-height:175px}}
+
+/* Compact Foundation copy to align visually with logo */
+.foundation-spotlight-copy h2{font-size:clamp(25px,2.5vw,34px);line-height:1.17;margin:8px 0 12px}
+.foundation-spotlight-copy .eyebrow{font-size:.7rem;line-height:1.35}
+.foundation-spotlight-copy>p:not(.eyebrow){line-height:1.5;margin-bottom:16px}
+.foundation-spotlight-inner{gap:34px}
