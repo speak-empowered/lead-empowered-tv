@@ -500,3 +500,8 @@ textarea{min-height:150px;resize:vertical}
 .guest-type-icon--thought{color:#147f79;background:#e5f5f2}
 .guest-type-icon--influencers{color:#c34d68;background:#fcebf0}
 .guest-type-icon--changemakers{color:#4d7d31;background:#eef6e7}
+
+/* Compact, understated About-page icons matching the requested example */
+.guest-card--icon h3{display:flex;align-items:center;gap:10px}
+.guest-card--icon .guest-type-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;min-width:22px;min-height:22px;padding:0;border:0;border-radius:0;background:transparent}
+.guest-card--icon .guest-type-icon svg{display:block;flex:none;width:22px!important;height:22px!important;max-width:22px;max-height:22px}
