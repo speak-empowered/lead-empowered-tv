@@ -475,3 +475,10 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .featured-video-item{background:#fff;border:1px solid #d6e1e9;box-shadow:0 10px 24px rgba(17,45,69,.09)}
 .watch-showcase .featured-video-link{color:#2b6b99}
 .watch-showcase .featured-video-link:hover,.watch-showcase .featured-video-link:focus-visible{color:#164a73}
+
+/* Refined editorial typography for Featured Conversations */
+.watch-showcase .watch-showcase-heading{max-width:900px;margin:0 auto 28px}
+.watch-showcase .watch-showcase-heading h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(28px,3.5vw,44px);font-weight:700;line-height:1.16;letter-spacing:-.025em;color:#142a40;margin:9px 0 12px;text-wrap:balance}
+.watch-showcase .watch-showcase-heading h3 .keep-together{color:#2b6b99}
+.watch-showcase .watch-showcase-heading>p{font-size:clamp(1rem,1.45vw,1.17rem);line-height:1.55;font-weight:450;letter-spacing:.005em;color:#4c6073;max-width:680px;margin:0 auto;text-wrap:balance}
+@media(max-width:600px){.watch-showcase .watch-showcase-heading h3{font-size:clamp(27px,7vw,34px)}}
