@@ -433,3 +433,11 @@ textarea{min-height:150px;resize:vertical}
 .foundation-spotlight-copy .eyebrow{font-size:.7rem;line-height:1.35}
 .foundation-spotlight-copy>p:not(.eyebrow){line-height:1.5;margin-bottom:16px}
 .foundation-spotlight-inner{gap:34px}
+
+/* Featured Watch-page video embeds */
+.featured-conversations{padding-top:42px}
+.featured-videos-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.featured-video{aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#08111d;border:1px solid rgba(217,173,84,.32);box-shadow:0 10px 24px rgba(0,0,0,.12)}
+.featured-video iframe{display:block;width:100%;height:100%;border:0}
+@media(max-width:900px){.featured-videos-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.featured-videos-grid{grid-template-columns:1fr;gap:16px}}
