@@ -463,3 +463,15 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .featured-video-link:hover,.watch-showcase .featured-video-link:focus-visible{color:#fff}
 .watch-showcase-cta{text-align:center;margin-top:26px}
 @media(max-width:760px){.watch-showcase{padding:36px 0 42px}.watch-showcase .reach-intro{margin-bottom:20px;gap:22px}.watch-showcase-divider{margin:16px 0 24px}}
+
+/* Contrast the Watch showcase with its dark hero */
+.keep-together{white-space:nowrap}
+.watch-showcase{background:linear-gradient(145deg,#f7f8fa 0%,#edf3f8 100%);color:#172a3d;border-top:1px solid #d7e1e9;border-bottom:1px solid #d7e1e9}
+.watch-showcase .section-heading h2,.watch-showcase .section-heading h3{color:#142a40}
+.watch-showcase .section-heading p{color:#43566a}
+.watch-showcase .section-heading .eyebrow{color:#956c22}
+.watch-showcase .reach-badge .small{color:#536477}
+.watch-showcase-divider{background:linear-gradient(90deg,transparent,rgba(160,119,43,.7),transparent)}
+.watch-showcase .featured-video-item{background:#fff;border:1px solid #d6e1e9;box-shadow:0 10px 24px rgba(17,45,69,.09)}
+.watch-showcase .featured-video-link{color:#2b6b99}
+.watch-showcase .featured-video-link:hover,.watch-showcase .featured-video-link:focus-visible{color:#164a73}
