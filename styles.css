@@ -476,9 +476,8 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .featured-video-link{color:#2b6b99}
 .watch-showcase .featured-video-link:hover,.watch-showcase .featured-video-link:focus-visible{color:#164a73}
 
-/* Refined editorial typography for Featured Conversations */
+/* Match Featured Conversations typography to the YouTube heading */
 .watch-showcase .watch-showcase-heading{max-width:900px;margin:0 auto 28px}
-.watch-showcase .watch-showcase-heading h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(28px,3.5vw,44px);font-weight:700;line-height:1.16;letter-spacing:-.025em;color:#142a40;margin:9px 0 12px;text-wrap:balance}
-.watch-showcase .watch-showcase-heading h3 .keep-together{color:#2b6b99}
-.watch-showcase .watch-showcase-heading>p{font-size:clamp(1rem,1.45vw,1.17rem);line-height:1.55;font-weight:450;letter-spacing:.005em;color:#4c6073;max-width:680px;margin:0 auto;text-wrap:balance}
-@media(max-width:600px){.watch-showcase .watch-showcase-heading h3{font-size:clamp(27px,7vw,34px)}}
+.watch-showcase .watch-showcase-heading h3{font-family:inherit;font-size:clamp(24px,2.6vw,34px);font-weight:700;line-height:1.25;letter-spacing:normal;color:#142a40;margin:7px 0 10px;text-wrap:balance}
+.watch-showcase .watch-showcase-heading h3 .keep-together{color:inherit}
+.watch-showcase .watch-showcase-heading>p{font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal;color:#43566a;max-width:680px;margin:0 auto}
