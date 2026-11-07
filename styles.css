@@ -514,3 +514,14 @@ textarea{min-height:150px;resize:vertical}
 .spotlight-benefit-icon--sparkles{color:#7954a7}
 .spotlight-benefit-icon--share{color:#147f79}
 .spotlight-benefit-icon--magnet{color:#c34d68}
+
+/* Sponsorship page: compact line icons consistent with Spotlight and About */
+.sponsor-icon-heading,.sponsor-form-icon-label{display:flex;align-items:center;gap:10px}
+.sponsor-inline-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;color:#2b6b99}
+.sponsor-inline-icon svg{display:block;width:22px;height:22px;flex:none}
+.sponsor-inline-icon--brand{color:#c34d68}
+.sponsor-inline-icon--reach{color:#147f79}
+.sponsor-inline-icon--trust{color:#a26b13}
+.sponsor-inline-icon--organizations{color:#2b6b99}
+.sponsor-inline-icon--info{color:#2b6b99}
+.sponsor-inline-icon--goals{color:#a26b13}
