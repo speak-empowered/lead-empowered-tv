@@ -505,3 +505,12 @@ textarea{min-height:150px;resize:vertical}
 .guest-card--icon h3{display:flex;align-items:center;gap:10px}
 .guest-card--icon .guest-type-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;min-width:22px;min-height:22px;padding:0;border:0;border-radius:0;background:transparent}
 .guest-card--icon .guest-type-icon svg{display:block;flex:none;width:22px!important;height:22px!important;max-width:22px;max-height:22px}
+
+/* Featured Guest Spotlight: compact icons that match the About page */
+.spotlight-benefit-heading{display:flex;align-items:center;gap:10px}
+.spotlight-benefit-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;color:#2b6b99}
+.spotlight-benefit-icon svg{display:block;width:22px;height:22px;flex:none}
+.spotlight-benefit-icon--clapperboard,.spotlight-benefit-icon--megaphone{color:#a26b13}
+.spotlight-benefit-icon--sparkles{color:#7954a7}
+.spotlight-benefit-icon--share{color:#147f79}
+.spotlight-benefit-icon--magnet{color:#c34d68}
