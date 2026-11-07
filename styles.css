@@ -489,3 +489,14 @@ textarea{min-height:150px;resize:vertical}
 
 .watch-platform-icon--youtube{color:#d62828;background:#fff0f0;border-color:#f4c9c9}
 .watch-platform-icon--e360tv{color:#ae7b14;background:#fff7e2;border-color:#ecd69e}
+
+/* About the Show guest category icons */
+.guest-card--icon h3{display:flex;align-items:center;gap:12px}
+.guest-type-icon{width:42px;height:42px;flex:none;display:inline-flex;align-items:center;justify-content:center;border-radius:11px}
+.guest-type-icon svg{width:25px;height:25px;display:block}
+.guest-type-icon--business{color:#2b6b99;background:#e9f2f9}
+.guest-type-icon--entrepreneurs{color:#b67b12;background:#fff3d8}
+.guest-type-icon--authors{color:#7954a7;background:#f1eafa}
+.guest-type-icon--thought{color:#147f79;background:#e5f5f2}
+.guest-type-icon--influencers{color:#c34d68;background:#fcebf0}
+.guest-type-icon--changemakers{color:#4d7d31;background:#eef6e7}
