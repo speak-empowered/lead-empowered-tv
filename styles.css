@@ -631,3 +631,11 @@ textarea{min-height:150px;resize:vertical}
 .stat--icon .stat-icon{flex:0 0 30px;width:30px;height:30px}
 .stat--icon .stat-icon svg{width:28px;height:28px}
 .stat--icon>span{display:block}
+
+/* Featured Guest hero: subtitle and CTA side by side with less empty space */
+.page-hero--featured{padding:45px 0 48px}
+.page-hero--featured h1{margin:9px 0 16px}
+.page-hero--featured .featured-hero-bottom{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.page-hero--featured .featured-hero-bottom p{flex:1 1 auto;max-width:790px;margin:0}
+.page-hero--featured .featured-hero-bottom .btn{flex:0 0 auto;white-space:nowrap}
+@media(max-width:760px){.page-hero--featured{padding:38px 0 42px}.page-hero--featured .featured-hero-bottom{flex-direction:column;align-items:flex-start;gap:20px}.page-hero--featured .featured-hero-bottom .btn{white-space:normal}}
