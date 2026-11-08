@@ -571,3 +571,9 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .watch-showcase-cta .btn.btn-primary:hover,.watch-showcase .watch-showcase-cta .btn.btn-primary:focus-visible,.watch-showcase .watch-showcase-cta .btn.btn-e360tv:hover,.watch-showcase .watch-showcase-cta .btn.btn-e360tv:focus-visible{background:#e0bd79;color:#10263b;border-color:#b68c40;box-shadow:0 14px 30px rgba(96,69,25,.25)}
 .watch-showcase .watch-showcase-cta .youtube-cta-icon rect{fill:#10263b}
 .watch-showcase .watch-showcase-cta .youtube-cta-icon path{fill:#c9a45d}
+
+/* Match the site's established gold button tokens exactly */
+.watch-showcase .watch-showcase-cta .btn.btn-primary,.watch-showcase .watch-showcase-cta .btn.btn-e360tv{background:var(--gold);border-color:var(--gold);color:#111}
+.watch-showcase .watch-showcase-cta .btn.btn-primary:hover,.watch-showcase .watch-showcase-cta .btn.btn-primary:focus-visible,.watch-showcase .watch-showcase-cta .btn.btn-e360tv:hover,.watch-showcase .watch-showcase-cta .btn.btn-e360tv:focus-visible{background:var(--gold-light);border-color:var(--gold-light);color:#111}
+.watch-showcase .watch-showcase-cta .youtube-cta-icon rect{fill:#111}
+.watch-showcase .watch-showcase-cta .youtube-cta-icon path{fill:var(--gold)}
