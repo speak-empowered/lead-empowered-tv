@@ -547,3 +547,8 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase-cta{margin-top:32px}
 .watch-showcase-cta .btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:15px 32px;font-size:1.05rem;font-weight:700;letter-spacing:.01em;box-shadow:0 7px 18px rgba(30,72,110,.16)}
 @media(max-width:480px){.watch-showcase-cta .btn{width:100%;max-width:340px;padding:15px 20px}}
+
+/* Prominent full-scale YouTube CTA beneath the three featured interviews */
+.watch-showcase .watch-showcase-cta{margin-top:38px}
+.watch-showcase .watch-showcase-cta .btn.btn-primary{display:inline-flex;align-items:center;justify-content:center;width:min(100%,440px);min-height:68px;padding:20px 36px;font-size:1.25rem;line-height:1.3;font-weight:800;border-radius:10px;box-shadow:0 12px 28px rgba(30,72,110,.22)}
+@media(max-width:480px){.watch-showcase .watch-showcase-cta .btn.btn-primary{width:100%;min-height:62px;font-size:1.1rem;padding:18px 18px}}
