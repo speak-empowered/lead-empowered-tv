@@ -538,3 +538,7 @@ textarea{min-height:150px;resize:vertical}
 .featured-guest-name{font-size:1.15rem;font-weight:750;line-height:1.3;color:#fff}
 .featured-guest-role{font-size:.88rem;line-height:1.45;color:#d2dce7;font-weight:400}
 @media(prefers-reduced-motion:reduce){.watch-showcase .featured-video-item{transition:none}.watch-showcase .featured-video-item:hover{transform:none}}
+
+/* Refined featured guest distinction: single small gold star, no laurels */
+.featured-guest-mark{width:16px;height:16px;flex:none;color:#e3bd77}
+.featured-guest-label{gap:8px;letter-spacing:.13em}
