@@ -593,3 +593,7 @@ textarea{min-height:150px;resize:vertical}
 /* Black guest video cards; remove profile prompt while retaining clickable guest names */
 .watch-showcase .featured-video-item{background:#000}
 .watch-showcase .featured-video-item .featured-video-link::after{content:none;display:none}
+
+/* Compact black guest video cards without top recognition labels */
+.watch-showcase .featured-video-item{padding:8px 8px 12px}
+.watch-showcase .featured-video-item .featured-video-link{margin-top:9px;padding:10px 10px;min-height:70px}
