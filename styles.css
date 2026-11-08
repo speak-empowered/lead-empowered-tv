@@ -615,3 +615,11 @@ textarea{min-height:150px;resize:vertical}
 /* Keep Watch hero copy clear of decorative dialogue art */
 @media(min-width:951px){.page-hero--conversation:has(+ .watch-showcase)>.container{padding-right:310px}.page-hero--conversation:has(+ .watch-showcase) .conversation-art{right:max(18px,calc((100vw - 1180px)/2));width:230px}}
 @media(max-width:950px){.page-hero--conversation:has(+ .watch-showcase) .conversation-art{display:none}.page-hero--conversation:has(+ .watch-showcase)>.container{padding-right:0}}
+
+/* Compact icons left of homepage audience metrics */
+.stats .stat--icon{display:flex;align-items:center;justify-content:flex-start;gap:14px;text-align:left;padding:24px 17px}
+.stat--icon .stat-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 36px;width:36px;height:36px;color:#2b6b99}
+.stat--icon .stat-icon svg{display:block;width:30px;height:30px}
+.stat--icon .stat-copy{min-width:0}
+.stat--icon strong{margin-bottom:8px}
+@media(max-width:520px){.stats .stat--icon{padding:22px 18px}}
