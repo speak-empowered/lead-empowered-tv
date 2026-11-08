@@ -623,3 +623,11 @@ textarea{min-height:150px;resize:vertical}
 .stat--icon .stat-copy{min-width:0}
 .stat--icon strong{margin-bottom:8px}
 @media(max-width:520px){.stats .stat--icon{padding:22px 18px}}
+
+/* Align metric icons directly alongside the numbers, not descriptions */
+.stats .stat--icon{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:0}
+.stat--icon .stat-metric{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:10px}
+.stat--icon .stat-metric strong{display:block;margin:0;white-space:nowrap}
+.stat--icon .stat-icon{flex:0 0 30px;width:30px;height:30px}
+.stat--icon .stat-icon svg{width:28px;height:28px}
+.stat--icon>span{display:block}
