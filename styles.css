@@ -589,3 +589,7 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .featured-video-item .featured-video-link:hover,.watch-showcase .featured-video-item .featured-video-link:focus-visible{background:rgba(199,168,23,.24);border-color:#e0c542;transform:translateY(-2px);outline-offset:3px}
 .watch-showcase .featured-video-item .featured-video-link:hover .featured-guest-name,.watch-showcase .featured-video-item .featured-video-link:focus-visible .featured-guest-name{color:#fff;text-decoration:none}
 @media(prefers-reduced-motion:reduce){.watch-showcase .featured-video-item .featured-video-link{transition:none}.watch-showcase .featured-video-item .featured-video-link:hover{transform:none}}
+
+/* Black guest video cards; remove profile prompt while retaining clickable guest names */
+.watch-showcase .featured-video-item{background:#000}
+.watch-showcase .featured-video-item .featured-video-link::after{content:none;display:none}
