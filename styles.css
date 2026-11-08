@@ -542,3 +542,8 @@ textarea{min-height:150px;resize:vertical}
 /* Refined featured guest distinction: single small gold star, no laurels */
 .featured-guest-mark{width:16px;height:16px;flex:none;color:#e3bd77}
 .featured-guest-label{gap:8px;letter-spacing:.13em}
+
+/* Stronger call-to-action beneath the distinguished guest showcase */
+.watch-showcase-cta{margin-top:32px}
+.watch-showcase-cta .btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:15px 32px;font-size:1.05rem;font-weight:700;letter-spacing:.01em;box-shadow:0 7px 18px rgba(30,72,110,.16)}
+@media(max-width:480px){.watch-showcase-cta .btn{width:100%;max-width:340px;padding:15px 20px}}
