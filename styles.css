@@ -582,3 +582,10 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .watch-affiliate-disclosure{max-width:850px;margin:24px auto 0;text-align:center;font-size:.84rem;line-height:1.6;color:#536477}
 .watch-showcase .watch-affiliate-disclosure strong{color:#263c50}
 .watch-showcase .watch-affiliate-disclosure+.watch-showcase-cta{margin-top:24px}
+
+/* Make featured guest names and subtitles unmistakably clickable */
+.watch-showcase .featured-video-item .featured-video-link{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:86px;margin:15px 0 0;padding:13px 12px;border:1px solid #c7a817;border-radius:9px;background:rgba(199,168,23,.12);color:#fff;text-decoration:none;transition:background .2s ease,border-color .2s ease,transform .2s ease}
+.watch-showcase .featured-video-item .featured-video-link::after{content:"View Guest Profile  ↗";font-size:.73rem;font-weight:750;letter-spacing:.035em;color:#e0c542;margin-top:4px}
+.watch-showcase .featured-video-item .featured-video-link:hover,.watch-showcase .featured-video-item .featured-video-link:focus-visible{background:rgba(199,168,23,.24);border-color:#e0c542;transform:translateY(-2px);outline-offset:3px}
+.watch-showcase .featured-video-item .featured-video-link:hover .featured-guest-name,.watch-showcase .featured-video-item .featured-video-link:focus-visible .featured-guest-name{color:#fff;text-decoration:none}
+@media(prefers-reduced-motion:reduce){.watch-showcase .featured-video-item .featured-video-link{transition:none}.watch-showcase .featured-video-item .featured-video-link:hover{transform:none}}
