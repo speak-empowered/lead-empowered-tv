@@ -565,9 +565,3 @@ textarea{min-height:150px;resize:vertical}
 .watch-showcase .watch-showcase-cta .btn.btn-e360tv:hover,.watch-showcase .watch-showcase-cta .btn.btn-e360tv:focus-visible{background:#1c527a;border-color:#1c527a;color:#fff;box-shadow:0 14px 30px rgba(43,107,153,.3)}
 .watch-showcase-cta .e360tv-cta-icon{width:28px;height:28px;display:block;flex:none}
 @media(max-width:480px){.watch-showcase .watch-showcase-cta .btn.btn-primary,.watch-showcase .watch-showcase-cta .btn.btn-e360tv{flex:1 1 100%;width:100%;min-height:62px;font-size:1.1rem;padding:18px}}
-
-/* Cohesive premium palette for the four Watch platform cards */
-.watch-platform-heading{gap:10px}
-.watch-platform-icon,.watch-platform-icon--youtube,.watch-platform-icon--e360tv{width:32px;height:32px;border:1px solid #d7e3ed;border-radius:8px;background:#edf3f8;color:#2b6b99}
-.watch-platform-icon svg{width:20px;height:20px}
-.watch-platform-icon--e360tv{background:#f7f2e7;border-color:#e8ddc5;color:#a17a34}
