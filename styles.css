@@ -663,3 +663,12 @@ textarea{min-height:150px;resize:vertical}
 .footer-crosslinks .footer-simple-speak span,.footer-crosslinks .footer-simple-write span{max-width:none;font-size:.88rem;color:#fff}
 .footer-crosslinks .footer-simple-speak a,.footer-crosslinks .footer-simple-write a{font-size:.88rem;font-weight:800;color:var(--gold-light);white-space:nowrap}
 @media(max-width:750px){.footer-crosslinks{flex-direction:column;gap:12px}.footer-crosslinks .footer-simple-speak,.footer-crosslinks .footer-simple-write{gap:5px}}
+
+/* Compact footer spacing across the site */
+.site-footer .footer-simple{padding:22px 18px 12px}
+.site-footer .footer-simple-brand img{margin-bottom:12px}
+.site-footer .footer-simple-follow{margin-bottom:12px;gap:7px 16px}
+.site-footer .footer-crosslinks{padding:12px 0;gap:8px 24px}
+.site-footer .footer-simple-faith{margin-top:12px}
+.site-footer .footer-simple-bottom{padding-top:12px}
+@media(max-width:750px){.site-footer .footer-simple{padding:20px 16px 12px}.site-footer .footer-crosslinks{gap:8px;padding:12px 0}}
