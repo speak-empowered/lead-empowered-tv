@@ -656,3 +656,10 @@ textarea{min-height:150px;resize:vertical}
 .footer-simple-write a:hover,.footer-simple-write a:focus-visible{text-decoration:underline}
 @media(max-width:850px){.write-empowered-promo-inner{flex-wrap:wrap}.write-empowered-promo .btn{margin-left:90px}}
 @media(max-width:550px){.write-empowered-promo{padding:34px 0}.write-empowered-promo-inner{gap:14px}.write-empowered-promo-icon{flex-basis:42px}.write-empowered-promo-icon svg{width:39px;height:39px}.write-empowered-promo-copy{flex-basis:calc(100% - 60px)}.write-empowered-promo .btn{margin-left:0;white-space:normal}}
+
+/* Single-line cross-brand footer links on desktop */
+.footer-crosslinks{display:flex;justify-content:center;align-items:center;gap:12px 30px;flex-wrap:wrap;padding:20px 0;border-top:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16)}
+.footer-crosslinks .footer-simple-speak,.footer-crosslinks .footer-simple-write{display:inline-flex;flex-direction:row;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px;padding:0;margin:0;border:0;text-align:center}
+.footer-crosslinks .footer-simple-speak span,.footer-crosslinks .footer-simple-write span{max-width:none;font-size:.88rem;color:#fff}
+.footer-crosslinks .footer-simple-speak a,.footer-crosslinks .footer-simple-write a{font-size:.88rem;font-weight:800;color:var(--gold-light);white-space:nowrap}
+@media(max-width:750px){.footer-crosslinks{flex-direction:column;gap:12px}.footer-crosslinks .footer-simple-speak,.footer-crosslinks .footer-simple-write{gap:5px}}
