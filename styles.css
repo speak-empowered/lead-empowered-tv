@@ -688,3 +688,8 @@ textarea{min-height:150px;resize:vertical}
 /* Match the exact line-art icons used on Speak Empowered */
 .impact-pathways-icon{display:inline-flex;align-items:center;justify-content:center}
 .impact-pathways-icon svg{display:block;width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* Place each pathway icon directly to the left of its heading */
+.impact-pathways-title{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.impact-pathways-title .impact-pathways-icon{flex:0 0 30px;margin:0}
+.impact-pathways-title h3{margin:0}
