@@ -714,3 +714,12 @@ textarea{min-height:150px;resize:vertical}
 .sponsor-pricing-note{font-size:.9rem;color:#475a6b}
 @media(max-width:850px){.sponsor-pricing-inner{flex-direction:column;align-items:flex-start}.sponsor-hero-partner{max-width:100%}}
 @media(max-width:480px){.sponsor-hero-partner{flex-direction:column;align-items:flex-start}.sponsor-hero-partner img{width:90px}}
+
+/* Restore the Foundation's original prominent logo presentation in the hero */
+.sponsor-hero-foundation{width:100%;max-width:385px;margin:0 auto 14px;text-align:center}
+.sponsor-hero-foundation .sponsor-partner-label{display:block;margin:0 0 12px;color:#d9ad54}
+.sponsor-hero-foundation .foundation-spotlight-logo{min-height:220px;padding:20px;background:#fff}
+.sponsor-hero-foundation .foundation-spotlight-logo img{max-width:330px;max-height:205px;width:100%;height:auto}
+.sponsor-hero-foundation-caption{margin:12px 0 7px;font-size:.87rem;line-height:1.5;color:#e6edf5}
+.sponsor-hero-foundation-link{color:#d9ad54;font-size:.86rem;font-weight:700;text-decoration:none}
+@media(max-width:750px){.sponsor-hero-foundation{max-width:360px}}
