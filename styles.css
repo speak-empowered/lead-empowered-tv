@@ -742,3 +742,8 @@ textarea{min-height:150px;resize:vertical}
 
 /* Keep the heart fully visible while preserving the edge-to-edge image panel */
 .sponsor-hero-foundation .sponsor-foundation-image-link img{object-position:center top}
+
+/* Show the entire family artwork without artificial cropping or white frame */
+.sponsor-hero-foundation .sponsor-foundation-image-link{display:block;width:100%;height:auto;min-height:0;padding:0;background:transparent;border:0;overflow:hidden;border-radius:12px;box-shadow:none}
+.sponsor-hero-foundation .sponsor-foundation-image-link img{display:block;width:100%;height:auto;max-width:100%;max-height:none;object-fit:contain;object-position:center}
+@media(max-width:760px){.sponsor-hero-foundation .sponsor-foundation-image-link{height:auto;min-height:0}}
