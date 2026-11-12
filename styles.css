@@ -723,3 +723,8 @@ textarea{min-height:150px;resize:vertical}
 .sponsor-hero-foundation-caption{margin:12px 0 7px;font-size:.87rem;line-height:1.5;color:#e6edf5}
 .sponsor-hero-foundation-link{color:#d9ad54;font-size:.86rem;font-weight:700;text-decoration:none}
 @media(max-width:750px){.sponsor-hero-foundation{max-width:360px}}
+
+/* Sponsorship hero: prominent Foundation logo on left, LETV copy and CTA on right */
+@media(min-width:761px){.sponsor-offer-hero .sponsor-offer-card{grid-template-columns:minmax(310px,.9fr) minmax(0,1.1fr);gap:36px}.sponsor-offer-hero .sponsor-hero-action{grid-column:1;grid-row:1}.sponsor-offer-hero .sponsor-hero-copy{grid-column:2;grid-row:1}.sponsor-hero-foundation{max-width:100%;margin:0}.sponsor-hero-foundation .foundation-spotlight-logo{min-height:250px}.sponsor-hero-foundation .foundation-spotlight-logo img{max-height:225px}}
+.sponsor-hero-copy .sponsor-offer-button{margin-top:18px}
+@media(max-width:760px){.sponsor-offer-hero .sponsor-hero-action{order:0}.sponsor-offer-hero .sponsor-hero-copy{order:1}.sponsor-hero-copy .sponsor-offer-button{margin-top:18px}}
