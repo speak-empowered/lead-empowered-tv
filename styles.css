@@ -733,3 +733,9 @@ textarea{min-height:150px;resize:vertical}
 .sponsor-foundation-image-link{display:flex;text-decoration:none;cursor:pointer;overflow:hidden}
 .sponsor-hero-foundation .sponsor-foundation-image-link img{width:100%;max-width:100%;max-height:225px;height:auto;object-fit:contain}
 .sponsor-foundation-image-link:focus-visible{outline:3px solid #d9ad54;outline-offset:4px}
+
+/* Sponsorship hero: stronger strategic-partner label and full-bleed family image */
+.sponsor-hero-foundation .sponsor-partner-label{font-size:1rem;font-weight:800;letter-spacing:.12em;line-height:1.3;margin-bottom:14px}
+.sponsor-hero-foundation .sponsor-foundation-image-link{padding:0;border-radius:12px;min-height:250px;height:250px;background:transparent;overflow:hidden}
+.sponsor-hero-foundation .sponsor-foundation-image-link img{display:block;width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;object-position:center}
+@media(max-width:760px){.sponsor-hero-foundation .sponsor-foundation-image-link{height:230px;min-height:230px}}
