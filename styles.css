@@ -693,3 +693,7 @@ textarea{min-height:150px;resize:vertical}
 .impact-pathways-title{display:flex;align-items:center;gap:12px;margin-bottom:12px}
 .impact-pathways-title .impact-pathways-icon{flex:0 0 30px;margin:0}
 .impact-pathways-title h3{margin:0}
+
+/* Distinguish advertising sponsorship from guest appearances */
+.sponsor-price-clarification{max-width:340px;margin:12px 0 0;font-size:.82rem;line-height:1.5;opacity:.9}
+@media(max-width:750px){.sponsor-price-clarification{max-width:100%}}
