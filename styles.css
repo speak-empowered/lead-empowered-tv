@@ -799,3 +799,7 @@ a.hero-audio-service:focus-visible{outline:3px solid #d9ad54;outline-offset:3px}
 .spotify-headphone-wrap{position:absolute;z-index:-1;pointer-events:none;width:calc(100% + 100px);height:calc(100% + 90px);left:-68px;top:-55px;transform:rotate(-12deg);overflow:visible;opacity:.85}
 .watch-listen-section .audio-spotify>img,.watch-listen-section .audio-spotify>h3,.watch-listen-section .audio-spotify>p{position:relative;z-index:1}
 @media(max-width:700px){.spotify-headphone-wrap{width:calc(100% + 70px);height:calc(100% + 70px);left:-45px;top:-42px;opacity:.65}}
+
+/* Restore the original section-wide headphone position, now in gold */
+.watch-listen-section>.listen-headphone-art{position:absolute;z-index:0;pointer-events:none;top:14px;left:0;width:100%;height:100%;max-height:420px;opacity:.24;transform:none}
+@media(max-width:700px){.watch-listen-section>.listen-headphone-art{width:170%;max-width:none;left:-48%;top:0;opacity:.16}}
