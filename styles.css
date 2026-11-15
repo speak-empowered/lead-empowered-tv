@@ -755,3 +755,16 @@ textarea{min-height:150px;resize:vertical}
 .hero-audio-service{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid rgba(217,173,84,.35);border-radius:999px;background:rgba(255,255,255,.07);color:#fff;font-size:.84rem;font-weight:700;white-space:nowrap}
 .hero-audio-service img{width:20px;height:20px;object-fit:contain;filter:invert(1)}
 @media(max-width:600px){.hero-audio-list{gap:8px}.hero-audio-service{font-size:.76rem;padding:8px 10px}.hero-audio-service img{width:18px;height:18px}}
+
+/* Distinct official platform colors for listening services */
+.hero-audio-service img,.audio-platform-card img{filter:none}
+.audio-spotify img{filter:invert(64%) sepia(76%) saturate(600%) hue-rotate(85deg) brightness(92%) contrast(92%)}
+.audio-apple img{filter:invert(31%) sepia(88%) saturate(2557%) hue-rotate(254deg) brightness(99%) contrast(96%)}
+.audio-iheart img{filter:invert(23%) sepia(95%) saturate(4733%) hue-rotate(346deg) brightness(94%) contrast(104%)}
+.watch-listen-section{padding-top:58px;padding-bottom:64px}
+.audio-platform-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:25px}
+.audio-platform-card{padding:26px 20px;border:1px solid rgba(217,173,84,.25);border-radius:16px;background:linear-gradient(145deg,rgba(255,255,255,.065),rgba(255,255,255,.02));text-align:center}
+.audio-platform-card img{width:52px;height:52px;object-fit:contain;margin:0 auto 13px;display:block}
+.audio-platform-card h3{margin:0 0 9px;color:#fff;font-size:1.18rem}
+.audio-platform-card p{margin:0;color:#c8d3df;font-size:.92rem;line-height:1.6}
+@media(max-width:700px){.audio-platform-grid{grid-template-columns:1fr;gap:12px}.audio-platform-card{padding:20px}.watch-listen-section{padding-top:44px;padding-bottom:48px}}
