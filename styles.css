@@ -768,3 +768,8 @@ textarea{min-height:150px;resize:vertical}
 .audio-platform-card h3{margin:0 0 9px;color:#fff;font-size:1.18rem}
 .audio-platform-card p{margin:0;color:#c8d3df;font-size:.92rem;line-height:1.6}
 @media(max-width:700px){.audio-platform-grid{grid-template-columns:1fr;gap:12px}.audio-platform-card{padding:20px}.watch-listen-section{padding-top:44px;padding-bottom:48px}}
+
+/* Make podcast platform cards clearly clickable while retaining their appearance */
+a.audio-platform-card{display:block;text-decoration:none;color:inherit;transition:transform .18s ease,border-color .18s ease,background .18s ease}
+a.audio-platform-card:hover{transform:translateY(-3px);border-color:#d9ad54;background:rgba(255,255,255,.09)}
+a.audio-platform-card:focus-visible{outline:3px solid #d9ad54;outline-offset:4px}
