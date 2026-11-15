@@ -747,3 +747,11 @@ textarea{min-height:150px;resize:vertical}
 .sponsor-hero-foundation .sponsor-foundation-image-link{display:block;width:100%;height:auto;min-height:0;padding:0;background:transparent;border:0;overflow:hidden;border-radius:12px;box-shadow:none}
 .sponsor-hero-foundation .sponsor-foundation-image-link img{display:block;width:100%;height:auto;max-width:100%;max-height:none;object-fit:contain;object-position:center}
 @media(max-width:760px){.sponsor-hero-foundation .sponsor-foundation-image-link{height:auto;min-height:0}}
+
+/* Audio listening platforms below the homepage streaming platform lineup */
+.hero-audio-platforms{margin-top:14px;text-align:center}
+.hero-audio-intro{display:block;color:#dce4ed;font-size:.9rem;font-weight:600;margin-bottom:10px}
+.hero-audio-list{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.hero-audio-service{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid rgba(217,173,84,.35);border-radius:999px;background:rgba(255,255,255,.07);color:#fff;font-size:.84rem;font-weight:700;white-space:nowrap}
+.hero-audio-service img{width:20px;height:20px;object-fit:contain;filter:invert(1)}
+@media(max-width:600px){.hero-audio-list{gap:8px}.hero-audio-service{font-size:.76rem;padding:8px 10px}.hero-audio-service img{width:18px;height:18px}}
