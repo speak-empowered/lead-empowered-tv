@@ -815,3 +815,6 @@ a.hero-audio-service:focus-visible{outline:3px solid #d9ad54;outline-offset:3px}
 .hero-credibility-grid span{color:#fff;font-size:.76rem;line-height:1.35;font-weight:600}
 .hero .hero-credibility .hero-credibility-note{margin:12px 0 0;color:#c8d3df;font-size:.68rem;line-height:1.4;text-align:center}
 @media(max-width:420px){.hero .hero-credibility{padding:12px 6px}.hero-credibility-grid>div{padding:0 4px}.hero-credibility-grid span{font-size:.68rem}.hero-credibility-label{letter-spacing:.07em}}
+
+/* Compact homepage hero spacing beneath the navigation */
+.hero.home-hero{padding-top:24px}
