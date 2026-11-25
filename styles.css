@@ -803,3 +803,15 @@ a.hero-audio-service:focus-visible{outline:3px solid #d9ad54;outline-offset:3px}
 /* Restore the original section-wide headphone position, now in gold */
 .watch-listen-section>.listen-headphone-art{position:absolute;z-index:0;pointer-events:none;top:14px;left:0;width:100%;height:100%;max-height:420px;opacity:.24;transform:none}
 @media(max-width:700px){.watch-listen-section>.listen-headphone-art{width:170%;max-width:none;left:-48%;top:0;opacity:.16}}
+
+/* Homepage audience milestones */
+.hero .hero-credibility{margin-top:22px;padding:15px 12px 12px;border:1px solid var(--gold);border-radius:12px;background:rgba(8,19,33,.68);text-align:center}
+.hero-credibility-label{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--gold-light);font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.hero-credibility-label svg{width:21px;height:21px;flex-shrink:0}
+.hero-credibility-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.hero-credibility-grid>div{padding:0 7px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.hero-credibility-grid>div+div{border-left:1px solid rgba(224,197,66,.3)}
+.hero-credibility-grid strong{color:var(--gold-light);font-size:clamp(1.1rem,2.2vw,1.65rem);line-height:1.15;font-weight:850;white-space:nowrap}
+.hero-credibility-grid span{color:#fff;font-size:.76rem;line-height:1.35;font-weight:600}
+.hero .hero-credibility .hero-credibility-note{margin:12px 0 0;color:#c8d3df;font-size:.68rem;line-height:1.4;text-align:center}
+@media(max-width:420px){.hero .hero-credibility{padding:12px 6px}.hero-credibility-grid>div{padding:0 4px}.hero-credibility-grid span{font-size:.68rem}.hero-credibility-label{letter-spacing:.07em}}
