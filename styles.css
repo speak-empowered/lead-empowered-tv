@@ -825,3 +825,8 @@ a.hero-audio-service:focus-visible{outline:3px solid #d9ad54;outline-offset:3px}
 .home-hero .hero-credibility{padding-top:12px;padding-bottom:10px}
 .home-hero .hero-credibility .hero-credibility-note{margin-top:9px}
 @media(max-width:560px){.home-hero .hero-milestone-badge{font-size:.8rem;padding:10px 13px}}
+
+/* Larger growth-focused hero image caption */
+.home-hero .hero-milestone-badge{font-size:1.25rem;padding:20px 25px;gap:12px}
+.home-hero .hero-milestone-badge svg{width:32px;height:32px}
+@media(max-width:560px){.home-hero .hero-milestone-badge{font-size:1rem;padding:14px 16px;gap:9px}.home-hero .hero-milestone-badge svg{width:26px;height:26px}}
