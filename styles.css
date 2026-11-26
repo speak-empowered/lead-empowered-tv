@@ -831,3 +831,8 @@ a.hero-audio-service:focus-visible{outline:3px solid #d9ad54;outline-offset:3px}
 .home-hero .hero-milestone-badge{font-size:1.25rem;padding:20px 25px;gap:12px}
 .home-hero .hero-milestone-badge svg{width:32px;height:32px}
 @media(max-width:560px){.home-hero .hero-milestone-badge{font-size:1rem;padding:14px 16px;gap:9px}.home-hero .hero-milestone-badge svg{width:26px;height:26px}}
+
+/* Lead Empowered Perspectives launch page */
+.magazine-hero{padding:32px 0 40px}.magazine-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,5vw,64px);align-items:center}.magazine-cover img{display:block;width:100%;max-width:420px;height:auto;margin:auto;border:1px solid var(--gold);border-radius:5px;box-shadow:0 18px 45px rgba(0,0,0,.4)}.magazine-intro{min-width:0}.magazine-intro h1{font-size:clamp(2.4rem,4.5vw,4.3rem);line-height:1.05}.magazine-intro .magazine-lead{font-size:1.25rem;font-weight:700;color:#fff}.magazine-feature{border-left:3px solid var(--gold);padding:12px 18px;background:rgba(255,255,255,.06);margin:20px 0}.magazine-feature h2{font-size:1.2rem;color:var(--gold-light);margin:0 0 6px}.magazine-feature p{margin:0}.nav-links a[aria-current="page"]{color:var(--gold-light)}
+@media(min-width:901px){.nav-links{gap:clamp(10px,1.35vw,24px);white-space:nowrap}.nav .brand{min-width:0;flex-shrink:1}.nav .brand img{max-width:100%;width:480px}}
+@media(max-width:900px){.magazine-grid{grid-template-columns:1fr;gap:24px}.magazine-cover img{max-width:340px}.magazine-intro{text-align:center}.magazine-feature{text-align:left}.magazine-intro .hero-actions{justify-content:center}}
